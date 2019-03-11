@@ -1,0 +1,12 @@
+version: "2"
+ 
+services:
+  groovy:
+    container_name: groovy 
+    image: groovy
+    volumes:
+      - .:/home/groovy/scripts
+    extra_hosts:
+      - "local.regeneron.regn.com:192.168.99.100"
+    working_dir: /home/groovy/scripts
+    command: tail -f /dev/null
