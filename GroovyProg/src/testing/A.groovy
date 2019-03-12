@@ -5,4 +5,10 @@ class A{
     {
         println "This is hello Method"
     }
+
+    def sum(def a,def b)
+    {
+        def c = a + b
+        println c
+    }
 }
