@@ -1,5 +1,5 @@
 import testing.A
 
-def obj = new A()
-obj.hello()
-obj.sum(100,200.5)
+def x= new A()
+x.hello()
+x.sum(100,200.5)
