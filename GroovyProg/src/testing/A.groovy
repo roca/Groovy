@@ -2,6 +2,8 @@ package testing
 
 class A{
 
+    def final y=4
+
     def A(def a,def b)
     {
         def  c=a*b
