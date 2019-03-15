@@ -57,6 +57,15 @@ def arr2 = new String[3]
 arr2[2] = "hello"
 arr2[1] = "testing"
 
+println "Size of arr2: " + arr2.size()
+
 for (b in arr2) {
+   println b 
+}
+
+println "----------ForEach Loop ---------"
+
+
+for (def b : [1,2,3,4,5]) {
    println b 
 }
