@@ -65,7 +65,6 @@ for (b in arr2) {
 
 println "----------ForEach Loop ---------"
 
-
 for (def b : [1,2,3,4,5]) {
    println b 
 }
