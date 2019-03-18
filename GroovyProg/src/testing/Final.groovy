@@ -68,3 +68,17 @@ println "----------ForEach Loop ---------"
 for (def b : [1,2,3,4,5]) {
    println b 
 }
+
+
+import groovy.transform.Field
+
+var1 = 'var1'
+@Field String var2 = 'var2'
+def var3 = 'var3'
+printVars()
+
+void printVars() {
+    println var1
+    println var2
+    //println var3 // This won't work, because not in script scope.
+}
