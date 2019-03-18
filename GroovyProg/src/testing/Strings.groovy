@@ -35,4 +35,13 @@ if (b.equalsIgnoreCase(b1)){
 } else {
     println b + " dosn't equal " + b1
 }
-println b.equalsIgnoreCase(b1)
+println b.compareTo(b1)
+
+println b.compareToIgnoreCase(b1)
+
+println s.contains("Testing")
+
+println s.split(" ").length
+
+
+println s1.toCharArray()[0]
