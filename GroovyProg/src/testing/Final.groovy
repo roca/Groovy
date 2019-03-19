@@ -82,3 +82,6 @@ void printVars() {
     println var2
     //println var3 // This won't work, because not in script scope.
 }
+
+println "3 - 2 =" + obj2.sub(3,2)
+

@@ -32,4 +32,13 @@ class A{
         def c=a-b
         return c
     }
+
+    def numberSwap(def a,def b){
+        a=a+b
+        b=a-b
+        a=a-b  
+       println "Final value of a is " + a
+       println "Final value of b is " + b
+    }
 }
+
