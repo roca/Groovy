@@ -2,7 +2,6 @@ import testing.A
 
 def obj = new A()
 
-def a = 100
-def b = 200
-obj.numberSwap(a,b)
-println a
+def values = [100,200]
+values = obj.numberSwap(values)
+println values
