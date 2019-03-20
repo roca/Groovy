@@ -8,6 +8,10 @@ def values = [100,200]
 values = obj.numberSwap(values)
 println values
 
-def x = args[0]
-obj2.checkEvenOdd(x)
-println this.args[0]
+
+
+def var = this.args[0].toInteger()
+obj2.checkEvenOdd(var)
+
+
+
