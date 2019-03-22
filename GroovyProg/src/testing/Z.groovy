@@ -1,32 +1,12 @@
 import testing.A
 import testing.B
 import testing.C
+import testing.E.*
 
 import groovy.time.*
-import groovy.transform.*
 
 
-class Fibber {
-  def old=1,fib=1,current=1
 
-
-  def next() {
-    def newFib=fib+old
-    old=fib
-    fib=newFib
-    current++
-  }
-}
-
-class MemoizedExample {
- 
-    @Memoized
-
-    def fib(n) {
-    if (n<2) return 1
-    else return fib(n-1) + fib(n-2)
-    }
-}
 
 // def obj = new A()
 // def obj2 = new B()
@@ -54,7 +34,7 @@ def var = this.args[0].toInteger()
 //def obj = new MemoizedExample()
 
 def fib(n) {
-   def fibber = new Fibber();
+   def fibber = new E.Fibber();
    while(fibber.current < n) fibber.next()
    return fibber.fib
 }
