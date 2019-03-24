@@ -2,7 +2,8 @@
 // import testing.B
 // import testing.C
 
-import testing.D
+// import testing.D
+import testing.F
 
 // import groovy.time.*
 
@@ -23,7 +24,7 @@ import testing.D
 
 
 
-def var = this.args[0].toInteger()
+// def var = this.args[0].toInteger()
 
 // def obj = new C()
 // obj.checkGrade(var)
@@ -46,5 +47,11 @@ def var = this.args[0].toInteger()
 
 // println duration
 
-def obj = new D()
-println obj.checkPrimeNumber(var)
+// def obj = new D()
+// println obj.checkPrimeNumber(var)
+
+
+def var = this.args[0].toString()
+
+def obj = new F()
+println obj.revString(var)
