@@ -5,7 +5,7 @@ class F {
    def revString(def inputString){
        def reverse = ""
        for (def i = inputString.length()-1; i >= 0; i--) {
-           reverse = reverse + inputString.toCharArray()[i]
+           reverse = reverse + inputString.charAt(i)
        }
        println reverse
    }
