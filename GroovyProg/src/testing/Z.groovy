@@ -1,9 +1,10 @@
-import testing.A
-import testing.B
-import testing.C
-import testing.E.*
+// import testing.A
+// import testing.B
+// import testing.C
 
-import groovy.time.*
+import testing.D
+
+// import groovy.time.*
 
 
 
@@ -22,9 +23,6 @@ import groovy.time.*
 
 
 
-
-
-
 def var = this.args[0].toInteger()
 
 // def obj = new C()
@@ -33,25 +31,20 @@ def var = this.args[0].toInteger()
 
 //def obj = new MemoizedExample()
 
-def fib(n) {
-   def fibber = new E.Fibber();
-   while(fibber.current < n) fibber.next()
-   return fibber.fib
-}
+// def fib(n) {
+//    def fibber = new E.Fibber();
+//    while(fibber.current < n) fibber.next()
+//    return fibber.fib
+// }
 
 
-def timeStart = new Date()
-println fib(var)
-def timeStop = new Date()
+// def timeStart = new Date()
+// println fib(var)
+// def timeStop = new Date()
 
-TimeDuration duration = TimeCategory.minus(timeStop, timeStart)
+// TimeDuration duration = TimeCategory.minus(timeStop, timeStart)
 
-println duration
+// println duration
 
-
-
-
-
-
-
-
+def obj = new D()
+println obj.checkPrimeNumber(var)

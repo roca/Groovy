@@ -1,5 +1,6 @@
 package testing
-*
+
+import groovy.transform.*
 
 class C {
 

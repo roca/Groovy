@@ -1,7 +1,7 @@
 
 package testing
 
-import groovy.transform.
+import groovy.transform.*
 
 
 class Fibber {
@@ -16,12 +16,12 @@ class Fibber {
   }
 }
 
-class MemoizedExample {
+// class MemoizedExample {
  
-    @Memoized
+//     @Memoized
 
-    def fib(n) {
-    if (n<2) return 1
-    else return fib(n-1) + fib(n-2)
-    }
-}
+//     def fib(n) {
+//     if (n<2) return 1
+//     else return fib(n-1) + fib(n-2)
+//     }
+// }
