@@ -7,6 +7,6 @@ class F {
        for (def i = inputString.length()-1; i >= 0; i--) {
            reverse = reverse + inputString.charAt(i)
        }
-       println reverse
+       return reverse
    }
 }

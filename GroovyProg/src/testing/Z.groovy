@@ -4,6 +4,7 @@
 
 // import testing.D
 import testing.F
+import testing.G
 
 // import groovy.time.*
 
@@ -54,4 +55,6 @@ import testing.F
 def var = this.args[0].toString()
 
 def obj = new F()
+def obj1 = new G()
 println obj.revString(var)
+println "Is" + (obj1.isPalendrome(var) ? " ": " not")+ " a Palendrome"
