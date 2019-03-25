@@ -6,6 +6,7 @@
 import testing.F
 import testing.G
 
+
 // import groovy.time.*
 
 
@@ -58,3 +59,7 @@ def obj = new F()
 def obj1 = new G()
 println obj.revString(var)
 println "Is" + (obj1.isPalendrome(var) ? " ": " not")+ " a Palendrome"
+
+import testing.Http
+def obj3 = new Http()
+obj3.getSonarStatus()
