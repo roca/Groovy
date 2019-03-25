@@ -6,7 +6,7 @@ class G {
     def isPalendrome(def inputString) {
         def stringReverser = new F()
 
-        if (stringReverser.revString(inputString).equals(inputString)) {
+        if (stringReverser.revString(inputString).equalsIgnoreCase(inputString)) {
             return true
         }
         return false
