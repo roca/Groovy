@@ -4,10 +4,9 @@ import testing.F
 
 class G {
     def isPalendrome(def inputString) {
-        def reverser = new F()
-        def reverseString = reverser.revString(inputString)
+        def stringReverser = new F()
 
-        if (reverseString == inputString) {
+        if (stringReverser.revString(inputString) == inputString) {
             return true
         }
         return false
